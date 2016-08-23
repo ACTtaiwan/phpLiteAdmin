@@ -1,5 +1,5 @@
-# using https://hub.docker.com/_/php/
-FROM php:7.0.10-apache
+# using https://hub.docker.com/r/abiosoft/caddy/
+FROM abiosoft/caddy:php
 
 # load in phpLiteAdmin code
-COPY . /var/www/html/
+COPY . /srv
