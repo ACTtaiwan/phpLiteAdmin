@@ -22,9 +22,11 @@ Additional Configuration Options can be found in the [phpLiteAdmin README](phpLi
 Replace the `/path/to/db/directory` below with the actual path where your db is. 
 `$ docker run -it --rm -p 2015:2015 -v /path/to/db/directory:/db --name websql acttaiwan/phpliteadmin`
 
-`$ docker run -it --rm -p 2015:2015 -v $(pwd):/db --name websql acttaiwan/phpliteadmin`
-
 Access the admin page at http://localhost:2015/phpliteadmin.php
 
-## Let's Encrypt Auto SSL
+## Advanced Configuration
+### Caddyfile
+Port number, IP and other items can be set in the Caddyfile. See instructions on the [Caddy website](https://caddyserver.com/docs/caddyfile).
+
+### Let's Encrypt Auto SSL
 See the Docker hub [abiosoft/caddy](https://hub.docker.com/r/abiosoft/caddy/) page.
