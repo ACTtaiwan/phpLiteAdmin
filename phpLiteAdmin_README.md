@@ -1,5 +1,9 @@
 # phpLiteAdmin
 
+Website: http://www.phpliteadmin.org/
+
+Bitbucket: https://bitbucket.org/phpliteadmin/public/
+
 ## What is phpLiteAdmin?
 
 phpLiteAdmin is a web-based SQLite database admin tool written in PHP with
@@ -8,6 +12,12 @@ used by SQLite, phpLiteAdmin consists of a single source file, phpliteadmin.php,
 that is dropped into a directory on a server and then visited in a browser.
 There is no installation required. The available operations, feature set,
 interface, and user experience is comparable to that of phpMyAdmin.
+
+## News
+
+**13.12.2016: Just released phpLiteAdmin 1.9.7! [Download now](https://bitbucket.org/phpliteadmin/public/downloads/phpLiteAdmin_v1-9-7.zip)**
+
+**05.07.2015: Just released phpLiteAdmin 1.9.6! [Download now](https://bitbucket.org/phpliteadmin/public/downloads/phpLiteAdmin_v1-9-6.zip)**
 
 ## Features
 
@@ -36,11 +46,11 @@ interface, and user experience is comparable to that of phpMyAdmin.
 ## Demo
 
 A live demo of phpLiteAdmin can be found here:
-http://demo.phpliteadmin.christosoft.de/
+http://demo.phpliteadmin.org/
 
 ## Requirements
 
--   a server with PHP >= 5.2.0 installed
+-   a server with PHP >= 5.2.4 installed
 -   at least one PHP SQLite library extension installed and enabled: PDO,
     SQLite3, or SQLiteDatabase
     
@@ -49,14 +59,10 @@ and enabled by default so no custom action is necessary.
 
 ## Download
 
-The files in the source repositories are for development.
+The files in the source repositories are meant for development, not for use in production.
 
-You can find the latest stable single-file version here:
-https://bitbucket.org/phpliteadmin/public/wiki/DownloadLinks
-
-The latest single-file version of the development version can be found here:
-https://phpliteadmin.christosoft.de/phpliteadmin.zip
-
+You can find the latest downloads here:
+http://www.phpliteadmin.org/download/
 
 ## Installation
 
