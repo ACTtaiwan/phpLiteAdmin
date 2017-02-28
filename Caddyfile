@@ -1,3 +1,9 @@
-localhost:2015
-fastcgi / 127.0.0.1:9000 php # php variant only
-startup php-fpm # php variant only
+0.0.0.0
+
+fastcgi / 127.0.0.1:9000 php
+
+startup php-fpm7
+
+log stdout
+
+errors stdout
