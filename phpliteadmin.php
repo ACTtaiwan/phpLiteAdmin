@@ -589,7 +589,7 @@ function explode_sql($delimiter, $sql)
 //function to scan entire directory tree and subdirectories
 function dir_tree($dir)
 {
-	$path = '';
+	$path = [];
 	$stack[] = $dir;
 	while($stack)
 	{
